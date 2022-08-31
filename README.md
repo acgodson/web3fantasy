@@ -1,16 +1,35 @@
- #Imagine managing a team of your real-life favorite players on the metaverse--- 
+ ## Imagine managing a team of your real-life favorite players on the metaverse--- 
 
 Sure we'll get there.
 
-## Introduction
+# Introduction
 
 Web3 fantasy is a decentralized social platform that allows fantasy football fans the opportunity to create virtual leagues in form of digital assets tied to their Lukso Universal Profile, play with other subscribers, and manage their fantasy team for each game week event. 
 
-It also features a decentralized forum where fans and members of any virtual league can chat and discuss about their love for the game. 
+It also pitches a decentralized forum where fans and members of any virtual league could chat and discuss about their love for the game. 
 
-## Video Demo
+# Video Demo
 
 https://youtu.be/cb0mNwTrjxs
+
+
+# Tools
+
+~React/webpack~
+
+This project was experimented on react and bundled with webpack in order to run ipfs node. to try it 
+
+```
+git clone <repo>
+
+npm install
+
+npm run serve
+
+```
+
+
+
 
 
  
