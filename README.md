@@ -13,10 +13,11 @@ https://youtu.be/cb0mNwTrjxs
 
 It also pitches a decentralized forum where fans and members of any virtual league could chat and discuss about their love for the game. 
 
-## Idea Summary
-"*" Create or Join a virtual fantasy league
-"*" Build your own  fantasy Team. The goal is to accumulate as much points as possible from the performance of your squad place in real life gameweek events. For this Demo, Squad info, and event stats are retrieved from [Fantasy Premier League Endpoints]
-"*" Chat with other fans subscribed within the same league. 
+Idea Summary
+
+**Create or Join a virtual fantasy league**
+**Build your own  fantasy Team.** The goal is to accumulate as much points as possible from the performance of your squad place in real life gameweek events. For this Demo, Squad info, and event stats are retrieved from [Fantasy Premier League Endpoints]
+**Connect with other fans subscribed within the same league** 
 
 
 # Tools
@@ -38,7 +39,7 @@ In future, we hope to complete the forum section by persisting and encrypting ip
 # Team
 This experimental project was started  during the lukso buildup hackathon 2022. We hope to find team members who would like to contribute to this exciting idea beyound the hackathon period.
 
-"*" Godson Ani
+ Godson Ani
 (anigodson20@gmail.com)
 
 
