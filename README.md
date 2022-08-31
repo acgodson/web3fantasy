@@ -4,7 +4,7 @@ Sure we'll get there.
 
 # Introduction
 
-~Web3Fantasy~ is a decentralized social platform that allows fantasy football fans the opportunity to create virtual leagues in form of digital assets tied to their Lukso Universal Profile, play with other subscribers, and manage their fantasy team for each game week event. 
+**Web3Fantasy** is a decentralized social platform that allows fantasy football fans the opportunity to create virtual leagues in form of digital assets tied to their Lukso Universal Profile, play with other subscribers, and manage their fantasy team for each game week event. 
 
 It also pitches a decentralized forum where fans and members of any virtual league could chat and discuss about their love for the game. 
 
