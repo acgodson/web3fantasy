@@ -1,0 +1,101 @@
+{
+  "name": "web3-fantasy",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Godson Ani tinybird",
+  "description": "Fantasy Premier League Game and Community Forum",
+  "homepage": "https://web3fantasy.web.app",
+  "bugs": {
+    "url": "https://github.com/acgodson/web3fantasy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acgodson/web3fantasy/"
+  },
+  "engines": {
+    "node": "14 || 15 || 16",
+    "npm": ">=6"
+  },
+  "proxy": "http://localhost:3000",
+  "dependencies": {
+    "@emotion/cache": "11.4.0",
+    "@emotion/react": "11.5.0",
+    "@emotion/styled": "11.3.0",
+    "@erc725/erc725.js": "^0.14.4",
+    "@lukso/lsp-factory.js": "^2.3.3",
+    "@lukso/lsp-smart-contracts": "^0.6.2",
+    "@mui/icons-material": "5.2.0",
+    "@mui/material": "5.2.0",
+    "@mui/styled-engine": "5.2.0",
+    "@testing-library/jest-dom": "5.11.4",
+    "@testing-library/react": "11.1.0",
+    "@testing-library/user-event": "12.1.10",
+    "chroma-js": "2.1.2",
+    "ethereum-blockies-base64": "^1.0.2",
+    "flatpickr": "4.6.9",
+    "got": "^12.3.1",
+    "gun": "^0.2020.1238",
+    "ipfs-http-client": "^57.0.1",
+    "ipfs-utils": "^9.0.7",
+    "orbit-db": "^0.24.1",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-copy-to-clipboard": "5.0.4",
+    "react-countup": "6.1.0",
+    "react-dom": "17.0.2",
+    "react-flatpickr": "3.10.7",
+    "react-router-dom": "6.0.2",
+    "react-scripts": "4.0.3",
+    "react-syntax-highlighter": "15.4.5",
+    "underscore": "^1.13.4",
+    "web-vitals": "1.0.1",
+    "web3": "^1.7.5"
+  },
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "webpack --env production",
+    "serve": "webpack serve --hot-only --mode=development",
+    "start": "npm run serve",
+    "test": "npm run build && playwright test tests"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@playwright/test": "^1.12.3",
+    "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^10.0.0",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "interpolate-html-plugin": "^4.0.0",
+    "ipfs": "^0.63.3",
+    "node-polyfill-webpack-plugin": "^1.0.3",
+    "playwright": "^1.12.3",
+    "prettier": "2.3.2",
+    "react-hot-loader": "^4.12.21",
+    "rimraf": "^3.0.2",
+    "style-loader": "^3.1.0",
+    "test-util-ipfs-example": "^1.0.2",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
