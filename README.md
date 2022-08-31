@@ -14,14 +14,14 @@ https://youtu.be/cb0mNwTrjxs
 It also pitches a decentralized forum where fans and members of any virtual league could chat and discuss about their love for the game. 
 
 ## Idea Summary
-Create or Join a virtual fantasy league
-Build your own  fantasy Team. The goal is to accumulate as much points as possible from the performance of your squad place in real life gameweek events. Squad list, and game week eventes is retrieved from [Fantasy Premier League Endpoints]
-Chat with other fans subscribed within the same league
+"*" Create or Join a virtual fantasy league
+"*" Build your own  fantasy Team. The goal is to accumulate as much points as possible from the performance of your squad place in real life gameweek events. For this Demo, Squad info, and event stats are retrieved from [Fantasy Premier League Endpoints]
+"*" Chat with other fans subscribed within the same league. 
 
 
 # Tools
 
-The LSP7 contract was  deployed using ``` hardhat deploy ```  Client side was boostrapped [Create ReactAapp], [Material UI] and [Material UI kit], and [wepback]. To test it locally, clone the repository. Run ```npm install ``` and ```npm run serve``` 
+The LSP7 contract was  deployed using ``` hardhat deploy ```  Client side was boostrapped with [Create React App], [Material UI] and [Material UI kit], and [wepback]. To test it locally, clone the repository. Run ```npm install ``` and then ```npm run serve``` 
 
 # Lukso Tools and Standards
 
@@ -29,13 +29,16 @@ We employed the lukso universal profile extensions for browsers to log users in,
 
 # Fantasy football stats and information
 
-Information about player names, positions and points, and each gameweek stats is gotten from the fantasy premier league endpoints
+Information about squads, positions and points, and other gameweek stats are gotten from the fantasy premier league endpoints
 
+# What Next
+
+In future, we hope to complete the forum section by persisting and encrypting ipfs hashes via [privy.io]. Other interesting ideas including allowing profiles to create non-free leagues that require a certain amount of token staked and rewarding winners of gameweek events based on total supply. Universal profiles can also buy digital assets such as jerseys and accessories to decorate players
 
 # Team
-This experimental project was started  during the lukso buildup hackathon 2022. We hope to find more team members who would like to contribute to the project beyound the hackathon period.
+This experimental project was started  during the lukso buildup hackathon 2022. We hope to find team members who would like to contribute to this exciting idea beyound the hackathon period.
 
-Godson Ani
+"*" Godson Ani
 (anigodson20@gmail.com)
 
 
